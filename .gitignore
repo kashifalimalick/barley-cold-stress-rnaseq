@@ -1,0 +1,51 @@
+# Reference annotation
+annotation/
+# ==============================
+# Large sequencing data
+# ==============================
+
+raw_data/*.fastq
+raw_data/*.fastq.gz
+trimmed/*.fastq
+trimmed/*.fastq.gz
+
+# ==============================
+# Alignment files
+# ==============================
+
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# ==============================
+# Reference genome
+# ==============================
+
+genome/
+hisat2_index/
+
+# ==============================
+# Temporary / log files
+# ==============================
+
+*.tmp
+*.temp
+*.log
+*.swp
+
+# ==============================
+# MultiQC generated data
+# ==============================
+
+multiqc_data/
+
+# ==============================
+# Operating system
+# ==============================
+
+.DS_Store
+Thumbs.db
+# Intermediate count matrices
+counts/
